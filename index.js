@@ -41,7 +41,7 @@ console.log = (...args) => {
 };
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // 🌐 Keep alive server
 app.get("/", (req, res) => res.send("🤖 Bot Running"));
